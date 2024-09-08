@@ -16,9 +16,4 @@ public class WayPoint : MonoBehaviour
         Gizmos.color = m_color;
         Gizmos.DrawWireSphere(transform.position, 1f);    
     }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 }
