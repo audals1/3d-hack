@@ -404,9 +404,5 @@ public class MonsterController : MonoBehaviour
     protected virtual void Update()
     {
         BehaviourProcess();
-        //Vector3 start = transform.position + Vector3.up * 1f;
-        //Vector3 end = m_player.transform.position + Vector3.up * 1f;
-        //var dir = m_player.transform.position - transform.position;
-        //Debug.DrawRay(transform.position, dir.normalized * m_detectDist, Color.magenta);
     }
 }
