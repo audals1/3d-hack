@@ -47,21 +47,4 @@ public class MoveTween : MonoBehaviour
         //m_charCtr = GetComponent<CharacterController>();
         m_navAgent = GetComponent<NavMeshAgent>();
     }
-    //void Update()
-    //{
-    //    if (m_isStart)
-    //    {
-    //       var value = m_curve.Evaluate(m_time);
-    //       var result = m_from * (1f - value) + m_to * value;
-    //        var dir = result - transform.position;
-    //        //m_charCtr.Move(dir);
-    //        m_navAgent.Move(dir);
-    //       m_time += Time.deltaTime / m_duration;
-    //        if(m_time >= 1.0f)
-    //        {
-    //            m_isStart = false;
-    //        }
-    //    }
-    //}
-
 }
