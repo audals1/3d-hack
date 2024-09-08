@@ -465,12 +465,4 @@ public class PlayerController : MonoBehaviour
     {
         ActionControl();
     }
-    //void LateUpdate()
-    //{
-    //   if(m_navAgent.hasPath)
-    //    {
-    //        m_linePath.positionCount = m_navAgent.path.corners.Length;
-    //        m_linePath.SetPositions(m_navAgent.path.corners);
-    //    }
-    //}
 }
