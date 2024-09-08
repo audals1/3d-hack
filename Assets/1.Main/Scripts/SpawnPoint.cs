@@ -18,11 +18,7 @@ public class SpawnPoint : MonoBehaviour
     public PathController Path { get { return m_path; } }
     public int Count { get { return m_count; } }
     public int MaxCount { get { return m_maxCount; } }
-    // Start is called before the first frame update
-    void Start()
-    {
-      
-    }
+
     public void CheckPoolReady()
     {
         if (!IsReady)
