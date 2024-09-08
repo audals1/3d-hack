@@ -18,16 +18,10 @@ public class MonsterTrigger : MonoBehaviour
     {
         if(other.CompareTag("Player"))
         {
-
-            //m_monsterTriggerOn = true;
-            //m_spawnPoint.IsReady = true;
-
-            //m_spawnPoint.CheckPoolReady();
             if(m_count < m_maxCount)
             {
                 InvokeRepeating("SpawnMonsters", 5f, m_interval);
             }
-            
         }
     }
     void SpawnMonsters()
@@ -36,13 +30,6 @@ public class MonsterTrigger : MonoBehaviour
         {
             m_monManager.CreateMonsters(m_path, m_spawnPoint);
             m_count += m_monManager.SpawnNum;
-        }
-        
-        
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+        }   
     }
 }
