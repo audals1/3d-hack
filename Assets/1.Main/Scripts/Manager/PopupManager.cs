@@ -95,15 +95,6 @@ public class PopupManager : DontDestroy<PopupManager>
 
                         }, null, "Yes", "No");
                         break;
-
-
-                   /* case LoadSceneManager.SceneState.Lobby:
-                        OpenPopup_OkCancel("[000000]Notice", "[000000]Are you sure to return to Title?", () => LoadSceneManager.Instance.LoadSceneAsync(LoadSceneManager.SceneState.Title), null, "Yes", "No");
-                        break;
-                    case LoadSceneManager.SceneState.Game:
-                        OpenPopup_OkCancel("[000000]Notice", "[000000]Are you sure to return to Lobby?", () => LoadSceneManager.Instance.LoadSceneAsync(LoadSceneManager.SceneState.Lobby), null, "Yes", "No");
-                        break;*/
-
                 }
             }
         }
