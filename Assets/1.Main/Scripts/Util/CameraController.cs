@@ -18,27 +18,13 @@ public class CameraController : MonoBehaviour
     float m_speed;
     [SerializeField]
     Transform m_target;
-    //[SerializeField]
-    //RenderTexture m_screenTex;
     Transform m_prevPos;
-    //Material m_material;
-    //private void OnPreCull()
-    //{
-    //    Camera.main.targetTexture = m_screenTex;
-    //}
-    //private void OnPostRender()
-    //{
-    //    Camera.main.targetTexture = null;
-    //    Graphics.Blit(m_screenTex, m_material);
-    //}
 
 
     // Start is called before the first frame update
     void Start()
     {
-       // m_material = new Material(Shader.Find("Unlit/Texture"));
         m_prevPos = transform;
-        //Screen.SetResolution((int)(Screen.width*0.9f), (int)(Screen.height*0.9f), true); 해상도 조절
     }
 
     // Update is called once per frame
